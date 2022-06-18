@@ -11,13 +11,13 @@ public class Start_Css {
 
     @Test
 
-    public void StartCssLocators(){
-    wd = new ChromeDriver();
-    wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
+    public void StartCssLocators() {
+        wd = new ChromeDriver();
+        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
 
-    WebElement el1 =wd.findElement(By.id("root"));
-    WebElement el2 =wd.findElement(By.tagName("a"));
-        List<WebElement> list =wd. findElements(By.tagName("a"));
+        WebElement el1 = wd.findElement(By.id("root"));
+        WebElement el2 = wd.findElement(By.tagName("a"));
+        List<WebElement> list = wd.findElements(By.tagName("a"));
         wd.findElement(By.className("container"));
         wd.findElement(By.name("name"));
 
@@ -25,7 +25,7 @@ public class Start_Css {
         wd.findElement(By.partialLinkText("LOG"));
 
 
-                    //CSS LOCATORS//
+        //CSS LOCATORS//
 //tagName
         wd.findElement(By.cssSelector("div"));
         wd.findElement(By.cssSelector("a"));
